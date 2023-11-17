@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#header-main {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    
+    padding: 1rem 0;
+
+    background-color: rgb(56, 55, 55);
+    color: rgb(252, 232, 232);
+}
+
+.logo-style {
+    width: 30px;
+    height: 30px;
+    gap: 10px;
+    transition-duration: 1s;
+
+}
+
+.logo-style:hover {
+    transform: translateX(10px) rotate(10deg) translateY(5px);
+    transition-duration: 1s;
+}
+
+
+.header-list {
+    list-style: none;
+    display: inline-flex;
+    gap: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.link-style {
+    color: rgb(0, 113, 212);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#presentation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1.5rem;
+    align-items: center;
+    padding: 4rem 1.5rem;
+    
+    color: rgb(56, 55, 55);
+    background-color: rgb(212, 212, 212);
+    font-size: 18px;
+}
+
+.img-presentation {
+    width: 400px;
+    height: 400px;
+}
+
+.img-popup {
+    
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.39);
+    
+}
+
+#services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 4rem 2rem;
+
+    font-size: 18px;
+}
+
+.service-list {
+    color: black;
+    list-style: none;
+    padding: 10px;
+    text-align: justify;
+}
+
+#choose {
+    transition-duration: 1.5s;
+}
+
+#choose-bartender:hover {
+    cursor: pointer;
+    transform: translateX(10px);
+    transition-duration: 1.5s;
+}
+
+#select-bartender {
+    display: none;
+    text-align: justify;
+    padding: 5px 10px;
+}
+
+#select-bartender h4 {
+    font-size: 18px;
+    padding: 5px 5px;
+}
+
+#select-bartender input {
+    border: outset gray;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+#select-bartender button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: solid gray;
+    background-color: rgb(212, 212, 212);
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+    transition-duration: 0.6s;
+}
+
+#select-bartender button:hover{
+    background-color: white;
+    transition-duration: 0.6s;
+
+}
+
+#select-bartender p {
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 10px;
+    cursor: pointer;
+    transition-duration: 0.6s;
+}
+
+#select-bartender p:hover {
+    transition-duration: 0.6s;
+    transform: translateX(-10px);
+}
+
+#footer {
+    background-color: rgb(56, 55, 55);
+    color: rgb(252, 232, 232);
+    padding: 2rem 1rem;
+}
+
